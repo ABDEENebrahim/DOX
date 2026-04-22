@@ -1,0 +1,13 @@
+{
+  "name": "jarvis-health-os",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start:api": "npm --workspace @jarvis/api run start",
+    "dev:api": "npm --workspace @jarvis/api run dev",
+    "dev:dashboard": "npm --workspace @jarvis/dashboard run dev",
+    "build:dashboard": "npm --workspace @jarvis/dashboard run build"
+  }
+}
